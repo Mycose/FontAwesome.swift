@@ -31,6 +31,8 @@
 		B104D3C21E9530560025BA9B /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841575D91B3A490A001092B6 /* Enum.swift */; };
 		B104D3C31E9530600025BA9B /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8401A8F21B3961B800269D14 /* FontAwesome.otf */; };
 		F36DF1B81F7A7B640050AA5C /* leshabitues-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F36DF1B71F7A7B640050AA5C /* leshabitues-icons.ttf */; };
+		F36DF1B91F7A84A60050AA5C /* leshabitues-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F36DF1B71F7A7B640050AA5C /* leshabitues-icons.ttf */; };
+		F36DF1BA1F7A84A60050AA5C /* leshabitues-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F36DF1B71F7A7B640050AA5C /* leshabitues-icons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -320,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DF4FB961E94582700F03B22 /* FontAwesome.otf in Resources */,
+				F36DF1BA1F7A84A60050AA5C /* leshabitues-icons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +347,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B104D3C31E9530600025BA9B /* FontAwesome.otf in Resources */,
+				F36DF1B91F7A84A60050AA5C /* leshabitues-icons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
