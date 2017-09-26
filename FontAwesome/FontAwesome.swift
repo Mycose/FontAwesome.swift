@@ -32,8 +32,8 @@ public extension UIFont {
     ///
     /// - parameter ofSize: The preferred font size.
     /// - returns: A UIFont object of FontAwesome.
-    public class func fontAwesome(ofSize fontSize: CGFloat) -> UIFont {
-        let name = "FontAwesome"
+    public class func fontAwesome(ofSize fontSize: CGFloat, fontFilename name: String = "FontAwesome", ext extension: String = "otf") -> UIFont {
+        //let name = "FontAwesome"
         if UIFont.fontNames(forFamilyName: name).isEmpty {
             FontLoader.loadFont(name)
         }
@@ -131,16 +131,16 @@ public extension UIImage {
 // MARK: - Private
 
 private class FontLoader {
-    class func loadFont(_ name: String) {
+    class func loadFont(_ name: String, extension ext: String) {
         let bundle = Bundle(for: FontLoader.self)
         let identifier = bundle.bundleIdentifier
 
         var fontURL: URL
         if identifier?.hasPrefix("org.cocoapods") == true {
             // If this framework is added using CocoaPods, resources is placed under a subdirectory
-            fontURL = bundle.url(forResource: name, withExtension: "otf", subdirectory: "FontAwesome.swift.bundle")!
+            fontURL = bundle.url(forResource: name, withExtension: ext, subdirectory: "FontAwesome.swift.bundle")!
         } else {
-            fontURL = bundle.url(forResource: name, withExtension: "otf")!
+            fontURL = bundle.url(forResource: name, withExtension: ext)!
         }
 
         guard let data = try? Data(contentsOf: fontURL) else { return }
