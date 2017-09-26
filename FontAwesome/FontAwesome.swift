@@ -32,10 +32,10 @@ public extension UIFont {
     ///
     /// - parameter ofSize: The preferred font size.
     /// - returns: A UIFont object of FontAwesome.
-    public class func fontAwesome(ofSize fontSize: CGFloat, fontFilename name: String = "FontAwesome", ext extension: String = "otf") -> UIFont {
+    public class func fontAwesome(ofSize fontSize: CGFloat, fontFilename name: String = "FontAwesome", extension ext: String = "otf") -> UIFont {
         //let name = "FontAwesome"
         if UIFont.fontNames(forFamilyName: name).isEmpty {
-            FontLoader.loadFont(name)
+            FontLoader.loadFont(name, extension: ext)
         }
 
         return UIFont(name: name, size: fontSize)!
