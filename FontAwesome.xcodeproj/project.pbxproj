@@ -30,6 +30,7 @@
 		B104D3C01E95304D0025BA9B /* FontAwesome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8401A8F01B39610F00269D14 /* FontAwesome.swift */; };
 		B104D3C21E9530560025BA9B /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841575D91B3A490A001092B6 /* Enum.swift */; };
 		B104D3C31E9530600025BA9B /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8401A8F21B3961B800269D14 /* FontAwesome.otf */; };
+		F36DF1B81F7A7B640050AA5C /* leshabitues-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F36DF1B71F7A7B640050AA5C /* leshabitues-icons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		841575D91B3A490A001092B6 /* Enum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 		848937F91C6AF0660085F6D1 /* FontAwesome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FontAwesome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84DBFFAC1D8A7E76002C4517 /* FontAwesomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontAwesomeView.swift; sourceTree = "<group>"; };
+		F36DF1B71F7A7B640050AA5C /* leshabitues-icons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "leshabitues-icons.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				8401A8F01B39610F00269D14 /* FontAwesome.swift */,
 				84DBFFAC1D8A7E76002C4517 /* FontAwesomeView.swift */,
 				841575D91B3A490A001092B6 /* Enum.swift */,
+				F36DF1B71F7A7B640050AA5C /* leshabitues-icons.ttf */,
 				8401A8F21B3961B800269D14 /* FontAwesome.otf */,
 				8401A8D51B39601400269D14 /* Supporting Files */,
 			);
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8401A8F31B3961B800269D14 /* FontAwesome.otf in Resources */,
+				F36DF1B81F7A7B640050AA5C /* leshabitues-icons.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
